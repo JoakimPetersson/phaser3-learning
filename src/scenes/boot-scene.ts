@@ -78,6 +78,10 @@ export class BootScene extends Phaser.Scene {
   private loadAssets(): void {
     // Load sample assets
 
+    // Snake
+    this.load.image('food', '/assets/food.png')
+    this.load.image('body', '/assets/body.png')
+
     // Source: Open Game Art
     this.load.image('man', 'assets/character.png')
   }
